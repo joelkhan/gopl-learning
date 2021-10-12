@@ -9,8 +9,9 @@ package main
 
 import "fmt"
 
-func main() {
+func main()() {
 	fmt.Println("Hello, 世界")
+	fmt.Println("Hello,", "世界")
 }
 
 //!-
