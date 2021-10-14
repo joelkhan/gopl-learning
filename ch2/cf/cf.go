@@ -26,7 +26,7 @@ func main() {
 		c := tempconv.Celsius(t)
 		fmt.Printf("%s = %s, %s = %s\n",
 			f, tempconv.FToC(f), c, tempconv.CToF(c))
-		fmt.Printf("%s = %s", f, tempconv.FToK(f))
+		fmt.Printf("%s = %s\n", f, tempconv.FToK(f))
 	}
 }
 
